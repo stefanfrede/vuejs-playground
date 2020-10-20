@@ -1,26 +1,33 @@
 <template>
-  <div class="text-center mt-6">
-    <h1
-      class="text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
-    >
+  <section
+    class="grid auto-rows-auto gap-8 py-12 sm:py-16 md:py-20 lg:py-28 xl:py-32"
+  >
+    <figure class="flex justify-center">
+      <img alt="Vue logo" class="h-32 w-auto" src="../assets/logo.svg" />
+    </figure>
+    <h1 class="max-w-3xl mx-auto text-2xl leading-9 font-medium text-gray-900">
       {{ msg }}
     </h1>
-    <button
-      type="button"
-      class="mt-4 inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
-      @click="count++"
-    >
-      Count is: {{ count }}
-    </button>
-    <p class="mt-4 text-lg leading-7 text-gray-500">
+    <div class="text-center">
+      <button
+        type="button"
+        class="inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-teal-600 hover:bg-teal-500 focus:outline-none focus:border-teal-700 focus:shadow-outline-teal active:bg-teal-700 transition ease-in-out duration-150"
+        @click="increaseCount()"
+      >
+        Count is: {{ count }}
+      </button>
+    </div>
+    <p class="text-lg leading-7 text-center text-gray-500">
       Edit
       <code class="italic text-gray-600">components/HelloWorld.vue</code> to
       test hot module replacement.
     </p>
-  </div>
+  </section>
 </template>
 
 <script>
+import { ref } from 'vue';
+
 export default {
   name: 'HelloWorld',
   props: {
@@ -29,10 +36,14 @@ export default {
       default: '',
     },
   },
-  data() {
-    return {
-      count: 0,
-    };
+  setup() {
+    const count = ref(0);
+
+    function increaseCount() {
+      count.value = count.value + 1;
+    }
+
+    return { count, increaseCount };
   },
 };
 </script>
