@@ -1,9 +1,11 @@
 module.exports = {
-  future: 'all',
   purge: ['./src/**/*.js', './src/**/*.vue'],
+  darkMode: false,
   theme: {
     extend: {},
   },
-  variants: {},
+  variants: {
+    extend: {},
+  },
   plugins: [],
 };
