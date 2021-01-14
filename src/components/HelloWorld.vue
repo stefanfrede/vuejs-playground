@@ -1,33 +1,128 @@
 <template>
-  <section
-    class="grid auto-rows-auto gap-8 py-12 sm:py-16 md:py-20 lg:py-28 xl:py-32"
-  >
-    <figure class="flex justify-center">
-      <img alt="Vue logo" class="h-32 w-auto" src="../assets/logo.svg" />
-    </figure>
-    <h1 class="max-w-3xl mx-auto text-2xl leading-9 font-medium text-gray-900">
-      {{ msg }}
-    </h1>
-    <div class="text-center">
-      <button
-        type="button"
-        class="inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:border-green-700 focus:shadow-outline-green active:bg-green-700 transition ease-in-out duration-150"
-        @click="increaseCount()"
-      >
-        Count is: {{ count }}
-      </button>
+  <header>
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-3xl font-bold leading-tight text-gray-900">
+        {{ msg }}
+      </h1>
     </div>
-    <p class="text-lg leading-7 text-center text-gray-500">
-      Edit
-      <code class="italic text-gray-600">components/HelloWorld.vue</code> to
-      test hot module replacement.
-    </p>
-  </section>
+  </header>
+  <main>
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="py-8 text-gray-600 leading-8">
+        <p class="text-xl">
+          For a guide and recipes on how to configure / customize this project,
+          check out the
+          <a
+            href="https://vitejs.dev/"
+            class="text-green-600 hover:text-green-700 font-medium underline"
+            >Vite documentation</a
+          >
+        </p>
+        <h2 class="mt-12 mb-8 text-2xl text-gray-900 font-bold leading-tight">
+          Installed Plugins
+        </h2>
+        <ul class="mb-6 space-x-4 flex">
+          <li>
+            <a
+              href="https://github.com/vuejs/vue-next/tree/master/packages/compiler-sfc#readme"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >@vue/compiler-sfc</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/vitejs/vite/tree/main/packages/plugin-vue#readme"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >@vitejs/plugin-vue</a
+            >
+          </li>
+        </ul>
+        <h2 class="mt-12 mb-8 text-2xl text-gray-900 font-bold leading-tight">
+          Essential Links
+        </h2>
+        <ul class="mb-6 space-x-4 flex">
+          <li>
+            <a
+              href="https://v3.vuejs.org/"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >Core Docs</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://forum.vuejs.org"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >Forum</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://chat.vuejs.org"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >Community Chat</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/vuejs"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://news.vuejs.org"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >News</a
+            >
+          </li>
+        </ul>
+        <h2 class="mt-12 mb-8 text-2xl text-gray-900 font-bold leading-tight">
+          Ecosystem
+        </h2>
+        <ul class="space-x-4 flex">
+          <li>
+            <a
+              href="https://router.vuejs.org"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >vue-router</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://vuex.vuejs.org"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >vuex</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/vuejs/vue-devtools#vue-devtools"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >vue-devtools</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/vuejs/awesome-vue"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >awesome-vue</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/vitejs/awesome-vite"
+              class="text-green-600 hover:text-green-700 font-medium underline"
+              >awesome-vite</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
 </template>
 
 <script>
-import { ref } from 'vue';
-
 export default {
   name: 'HelloWorld',
   props: {
@@ -35,15 +130,6 @@ export default {
       type: String,
       default: '',
     },
-  },
-  setup() {
-    const count = ref(0);
-
-    function increaseCount() {
-      count.value = count.value + 1;
-    }
-
-    return { count, increaseCount };
   },
 };
 </script>

@@ -1,6 +1,6 @@
 {
   "name": "vuejs-starter-kit",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "engines": {
     "node": "15.x.x",
     "npm": "7.x.x"
@@ -68,9 +68,10 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
     "tailwindcss": "^2.0.2",
-    "vite": "^2.0.0-beta.27"
+    "vite": "^2.0.0-beta.29"
   },
   "dependencies": {
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.3"
   }
 }

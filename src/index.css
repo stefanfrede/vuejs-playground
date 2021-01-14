@@ -2,3 +2,13 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer components {
+  .router-link {
+    @apply hover:text-green-600 text-base font-bold underline;
+  }
+
+  .router-link[aria-current] {
+    @apply text-green-600;
+  }
+}
