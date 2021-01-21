@@ -18,7 +18,7 @@
             This site is deployed by, and hosted by
             <a
               href="https://www.netlify.com/"
-              class="text-green-600 hover:text-green-700 font-medium underline"
+              class="text-green-700 hover:text-green-900 font-medium underline"
               >Netlify</a
             >.
           </p>
@@ -41,13 +41,13 @@
             To get your own instance of this
             <a
               href="https://v3.vuejs.org/"
-              class="text-green-600 hover:text-green-700 font-medium underline"
+              class="text-green-700 hover:text-green-900 font-medium underline"
               >Vue.js</a
             >
             starter project cloned and deploying to
             <a
               href="https://www.netlify.com"
-              class="text-green-600 hover:text-green-700 font-medium underline"
+              class="text-green-700 hover:text-green-900 font-medium underline"
               >Netlify</a
             >
             very quickly, just click the button below and follow the

@@ -5,11 +5,11 @@
 
 @layer components {
   .router-link {
-    @apply hover:text-green-600 text-base font-bold underline;
+    @apply hover:text-green-700 text-base font-bold underline;
   }
 
   .router-link--active,
   .router-link--exact-active {
-    @apply text-green-600;
+    @apply text-green-700;
   }
 }

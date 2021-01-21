@@ -14,7 +14,7 @@
           check out the
           <a
             href="https://vitejs.dev/"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >Vite documentation</a
           >
         </p>
@@ -26,13 +26,13 @@
         <p class="mb-6">
           <a
             href="https://github.com/vuejs/vue-next/tree/master/packages/compiler-sfc#readme"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >@vue/compiler-sfc</a
           >
           -
           <a
             href="https://github.com/vitejs/vite/tree/main/packages/plugin-vue#readme"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >@vitejs/plugin-vue</a
           >
         </p>
@@ -42,31 +42,31 @@
         <p class="mb-6">
           <a
             href="https://v3.vuejs.org/"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >Core Docs</a
           >
           -
           <a
             href="https://forum.vuejs.org"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >Forum</a
           >
           -
           <a
             href="https://chat.vuejs.org"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >Community Chat</a
           >
           -
           <a
             href="https://twitter.com/vuejs"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >Twitter</a
           >
           -
           <a
             href="https://news.vuejs.org"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >News</a
           >
         </p>
@@ -76,31 +76,31 @@
         <p class="mb-6">
           <a
             href="https://router.vuejs.org"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >vue-router</a
           >
           -
           <a
             href="https://vuex.vuejs.org"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >vuex</a
           >
           -
           <a
             href="https://github.com/vuejs/vue-devtools#vue-devtools"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >vue-devtools</a
           >
           -
           <a
             href="https://github.com/vuejs/awesome-vue"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >awesome-vue</a
           >
           -
           <a
             href="https://github.com/vitejs/awesome-vite"
-            class="text-green-600 hover:text-green-700 font-medium underline"
+            class="text-green-700 hover:text-green-900 font-medium underline"
             >awesome-vite</a
           >
         </p>

@@ -19,7 +19,7 @@
         <li>
           <a
             href="https://github.com/stefanfrede/vuejs-starter-kit/"
-            class="text-base font-bold underline hover:text-green-700"
+            class="text-base font-bold underline hover:text-green-900"
           >
             GitHub
           </a>
