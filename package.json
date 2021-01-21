@@ -72,7 +72,7 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
     "tailwindcss": "^2.0.2",
-    "vite": "^2.0.0-beta.34",
+    "vite": "^2.0.0-beta.35",
     "workbox-cli": "^6.0.2"
   },
   "dependencies": {
