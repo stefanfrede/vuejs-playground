@@ -1,6 +1,6 @@
 import Home from '../views/Home.vue';
 import About from '../views/About.vue';
-import NotFound from '../views/404.vue';
+import NotFound from '../views/NotFound.vue';
 
 export const routes = [
   {
@@ -14,8 +14,8 @@ export const routes = [
     component: About,
   },
   {
-    path: '/:path(.*)',
-    name: '404',
+    path: '/:catchAll(.*)',
+    name: 'NotFound',
     component: NotFound,
   },
 ];
